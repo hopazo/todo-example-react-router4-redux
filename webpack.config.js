@@ -16,12 +16,12 @@ module.exports = {
     },
 
     output: {
-        path: __dirname + '/dist',
+        path: __dirname,
         publicPath: '/',
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: './dist',
+        contentBase: './',
         historyApiFallback: true,
         port: 8080
     }
