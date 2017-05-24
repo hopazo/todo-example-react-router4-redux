@@ -28,10 +28,11 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "prop-types": "latest",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
-    "redux": "^3.6.0",
-    "prop-types": "latest"
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.6.0"
   }
 }
