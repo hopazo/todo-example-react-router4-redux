@@ -4,8 +4,8 @@ import todos from './todos'
 import visibilityFilter from './visibilityFilter'
 
 const todoApp = combineReducers({
-    todos,
-    visibilityFilter,
+        todos,
+        visibilityFilter,
         router: routerReducer
 });
 
