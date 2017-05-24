@@ -1,7 +1,7 @@
 {
-  "name": "pred-frontend",
+  "name": "todo-example-react-router4-redux",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lista de TODOs para ilustrar el uso de react router v4 y redux",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
