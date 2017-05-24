@@ -4,7 +4,7 @@ Este demo ilustra el uso de React Router v4 y redux en una aplicacion de TODOs
 ## Instalación
 
 ```
-git clone git@github.com:hopazo/todo-example-react-router4-redux.git`
+git clone git@github.com:hopazo/todo-example-react-router4-redux.git
 cd todo-example-react-router4-redux
 npm install
 ```
