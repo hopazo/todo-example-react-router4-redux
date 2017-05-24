@@ -1,10 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import todoApp from './reducers';
+import App from './components/App';
 
-const title = 'Minimal React Webpack Babel Setup';
+let store = createStore(todoApp);
 
-ReactDOM.render(
-  <div>{title}</div>,
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('app')
 );
+
 module.hot.accept();
